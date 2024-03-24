@@ -644,17 +644,14 @@ address {
 }
 
 
-.modal-close:hover svg {
+.modal-close:hover,
+.modal-close:focus  {
     background-color: #404bbf;
     border: none;
-    fill: #ffffff;
+    
 }
 
-.modal-close:focus svg {
-    background-color: #404bbf;
-    border: none;
-}
-
+  
 
 .close-btn {
     fill: #2e2f42;
@@ -663,6 +660,11 @@ address {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.modal-close:hover,
+.modal-close:focus svg {
+    fill: #ffffff;
 }
 
 
