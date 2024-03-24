@@ -549,7 +549,7 @@ address {
 
 .footer-modal {
     display: flex;
-    
+
 }
 
 .form-input {
@@ -584,7 +584,7 @@ address {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
 }
 
@@ -635,7 +635,7 @@ address {
     height: 24px;
     right: 24px;
     top: 24px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 0;
     cursor: pointer;
     display: flex;
@@ -644,18 +644,22 @@ address {
 }
 
 
-.modal-close:hover,
-.modal-close:focus svg {
+.modal-close:hover svg {
     background-color: #404bbf;
     border: none;
     fill: #ffffff;
+}
+
+.modal-close:focus svg {
+    background-color: #404bbf;
+    border: none;
 }
 
 
 .close-btn {
     fill: #2e2f42;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    position: absolute; 
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -676,7 +680,7 @@ address {
 }
 
 .modal-field {
-    margin-bottom: 8px; 
+    margin-bottom: 8px;
 }
 
 .modal-label {
@@ -731,7 +735,7 @@ address {
     color: rgba(46, 47, 66, 0.4);
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
-    padding: 8px 16px; 
+    padding: 8px 16px;
     background-color: transparent;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -764,23 +768,20 @@ address {
 
 }
 
-.check-text span {
+.check-icon {
     position: relative;
     width: 16px;
     height: 16px;
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     margin-right: 8px;
     fill: transparent;
 }
 
-.check-icon {
-    display: inline-flex;
-}
 
 .modal-check:checked+.check-text span {
     background-color: #404bbf;
