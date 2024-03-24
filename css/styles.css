@@ -535,7 +535,7 @@ address {
 
 .subscribe-form {
     display: flex;
-
+    gap: 24px;
 }
 
 .subscribe-text {
@@ -549,7 +549,7 @@ address {
 
 .footer-modal {
     display: flex;
-    gap: 24px;
+    
 }
 
 .form-input {
@@ -559,7 +559,7 @@ address {
     height: 40px;
     background-color: transparent;
     font-size: 12px;
-    line-height: 2px;
+    line-height: 2;
     letter-spacing: 0.04em;
     color: #fff;
     padding-left: 16px;
@@ -575,7 +575,6 @@ address {
     border: none;
     font-weight: 500;
     line-height: 1.5;
-
     min-width: 165px;
     height: 40px;
     background: #4d5ae5;
@@ -585,10 +584,8 @@ address {
     display: flex;
     align-items: center;
     justify-content: center;
-
-
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
     cursor: pointer;
-
 }
 
 .frame {
@@ -667,7 +664,7 @@ address {
 
 .close-btn:hover,
 .close-btn:focus {
-    fill: #fff;
+    fill: #ffffff;
 }
 
 
@@ -682,6 +679,10 @@ address {
     color: #2e2f42;
     max-width: 360px;
     margin-bottom: 16px;
+}
+
+.modal-field {
+    margin-bottom: 8px; 
 }
 
 .modal-label {
