@@ -735,7 +735,7 @@ address {
     color: rgba(46, 47, 66, 0.4);
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
-    padding: 8px 16px 0;
+    padding: 8px 16px;
     background-color: transparent;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -749,7 +749,7 @@ address {
 
 .modal-checkbox {
     margin-bottom: 24px;
-  
+   display: flex;
 }
 
 .check-text {
@@ -761,6 +761,7 @@ address {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    margin: 0;
 
  }
 
@@ -773,7 +774,10 @@ address {
 }
 
 .check-text span {
-    
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     width: 16px;
     height: 16px;
     border-radius: 2px;
