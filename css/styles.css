@@ -757,6 +757,11 @@ address {
     letter-spacing: 0.04em;
     line-height: 1.17;
     color: #8e8f99;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
  }
 
 .check-link {
@@ -768,15 +773,12 @@ address {
 }
 
 .check-text span {
-    position: relative;
-    display: inline-flex;
+    
     width: 16px;
     height: 16px;
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    align-items: center;
-    justify-content: center;
     margin-right: 8px;
     fill: transparent;
 }
