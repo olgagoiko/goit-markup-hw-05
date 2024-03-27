@@ -749,15 +749,14 @@ address {
 
 .modal-checkbox {
     margin-bottom: 24px;
-   display: flex;
-    
-}
+  }
 
 .check-text {
     font-size: 12px;
     letter-spacing: 0.04em;
-    line-height: 1.17;
     color: #8e8f99;
+   display: flex;
+   align-items: center;
 }
 
 .check-link {
