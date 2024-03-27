@@ -749,7 +749,8 @@ address {
 
 .modal-checkbox {
     margin-bottom: 24px;
-    display: flex;
+   display: flex;
+    
 }
 
 .check-text {
@@ -757,9 +758,6 @@ address {
     letter-spacing: 0.04em;
     line-height: 1.17;
     color: #8e8f99;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .check-link {
