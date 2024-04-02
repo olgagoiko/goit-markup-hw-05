@@ -753,7 +753,6 @@ address {
 
 .checkbox {
     margin-bottom: 24px;
-    padding: auto;
 }
 
 .check-text {
@@ -793,5 +792,4 @@ address {
 
 .modal-btn {
     margin: auto;
-    margin-top: 24px;
 }
